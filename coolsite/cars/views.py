@@ -23,7 +23,7 @@ class CarsHome(DataMixin, ListView):
 
 
 def about(request):
-    data = {'title': 'О нас',
+    data = {'title': 'Обо мне',
             'menu': menu}
     return render(request, 'cars/about.html', data)
 
